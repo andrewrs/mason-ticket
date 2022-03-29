@@ -1,0 +1,8 @@
+uuid: 85b7cfea-fd1e-4ced-b744-d0a7ce6b5f79
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ticket Type'
+vid: ticket_type
+description: ''
+weight: 0

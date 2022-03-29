@@ -1,0 +1,8 @@
+uuid: 67eebcd4-e991-4ab6-8e23-6a8c2d3ea6eb
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ticket Status'
+vid: ticket_status
+description: ''
+weight: 0

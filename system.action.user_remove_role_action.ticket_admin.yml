@@ -1,0 +1,14 @@
+uuid: 1e4751f2-2bf3-4ac4-b4d8-9d482bf12b78
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ticket_admin
+  module:
+    - user
+id: user_remove_role_action.ticket_admin
+label: 'Remove the Ticket Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ticket_admin

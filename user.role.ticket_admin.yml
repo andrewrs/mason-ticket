@@ -1,0 +1,22 @@
+uuid: b8866d65-ef73-4e52-8583-162b36f80f11
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ticket
+  module:
+    - field_permissions
+    - node
+id: ticket_admin
+label: 'Ticket Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'create field_assigned_to'
+  - 'create field_status'
+  - 'edit any ticket content'
+  - 'edit field_assigned_to'
+  - 'edit field_copied'
+  - 'edit field_status'
+  - 'edit own field_assigned_to'
+  - 'edit own field_status'

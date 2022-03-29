@@ -1,0 +1,43 @@
+uuid: 44b5c203-4ad3-4334-a4f1-542ce1080a78
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.ticket
+  module:
+    - access_by_ref
+    - comment
+    - contact
+    - field_permissions
+    - filter
+    - node
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access node by reference'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create field_copied'
+  - 'create ticket content'
+  - 'edit own field_copied'
+  - 'edit own ticket content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view field_assigned_to'
+  - 'view field_copied'
+  - 'view field_status'
+  - 'view own field_assigned_to'
+  - 'view own field_copied'
+  - 'view own field_status'

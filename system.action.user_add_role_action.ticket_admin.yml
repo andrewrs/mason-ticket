@@ -1,0 +1,14 @@
+uuid: 825100ab-ea0c-47fb-8d75-e3ae22ccc6fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ticket_admin
+  module:
+    - user
+id: user_add_role_action.ticket_admin
+label: 'Add the Ticket Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ticket_admin
