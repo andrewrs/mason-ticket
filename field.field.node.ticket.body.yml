@@ -1,0 +1,23 @@
+uuid: 6b93b223-2b49-4581-81c6-12bccd0fafcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ticket
+  module:
+    - text
+id: node.ticket.body
+field_name: body
+entity_type: node
+bundle: ticket
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
